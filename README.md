@@ -5,6 +5,9 @@ A single-file, CLI-based ethical web security testing tool designed for students
 ⚠️ For educational and authorized use only
 
 🧪 HOW TO RUN
+
+
+
 node ethical-test.js scan --url http://localhost --interactive
 
 
