@@ -4,6 +4,12 @@ A single-file, CLI-based ethical web security testing tool designed for students
 
 ⚠️ For educational and authorized use only
 
+🧪 HOW TO RUN
+node ethical-test.js scan --url http://localhost --interactive
+
+
+(Use Juice Shop / DVWA for demos)
+
 📌 What this tool does
 
 Runs safe, read-only security checks
@@ -120,6 +126,14 @@ bWAPP
 ❌ Do NOT test company or government sites
 ❌ Do NOT use without permission
 
+✅ WHAT THIS FIXES (100%)
+
+✔️ No more socket hang up crash
+✔️ Handles ECONNRESET
+✔️ Timeout protection
+✔️ User-Agent added
+✔️ One test failing won’t stop others
+✔️ GitHub + recruiter safe
 🧠 Ethical disclaimer
 This tool is intended strictly for educational and authorized security testing.
 Run only on systems you own or have explicit permission to test.
