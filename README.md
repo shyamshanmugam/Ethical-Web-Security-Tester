@@ -1,3 +1,181 @@
+🔐 Ethical Power Web Vulnerability Scanner
+
+A powerful, ethical, non‑exploiting web vulnerability detection tool built for educational and authorized security testing.
+
+⚠️ This tool performs indicator‑based detection only
+❌ No exploitation
+❌ No brute‑force
+❌ No data destruction
+
+📌 Project Purpose
+
+This project is designed to:
+
+Detect common web security weaknesses
+
+Follow real‑world pentesting methodology
+
+Align with OWASP Top 10
+
+Generate professional security reports
+
+Be safe, legal, and ethical
+
+🚀 Features
+
+✔ Works on HTTP & HTTPS
+✔ Single‑file Node.js scanner
+✔ Detects:
+
+Missing security headers
+
+SQL Injection indicators (error‑based)
+
+Reflected XSS indicators
+
+Insecure CORS configuration
+
+Sensitive file exposure
+
+✔ Generates JSON vulnerability report
+✔ Severity classification (Critical / High / Medium)
+
+🧠 What This Tool Does (Ethical Mode)
+Vulnerability	Method
+SQL Injection	Error message detection
+XSS	Input reflection check
+Headers	Missing security headers
+CORS	Wildcard policy detection
+Exposure	Public sensitive files
+
+👉 No payload execution
+👉 No exploitation
+👉 Detection only
+
+🛠️ Requirements
+
+Linux / macOS / Windows
+
+Node.js v16 or above
+
+Internet connection
+
+Authorization to test the target
+
+Check Node version:
+
+node -v
+
+📂 Project Structure
+Ethical-Power-Web-Scanner/
+│
+├── ethical-power-scanner.js
+├── README.md
+└── security-report.json   (generated after scan)
+
+▶️ How to Run (Step‑by‑Step)
+1️⃣ Clone or Download
+git clone https://github.com/your-username/Ethical-Power-Web-Scanner.git
+cd Ethical-Power-Web-Scanner
+
+
+OR place ethical-power-scanner.js in a folder manually.
+
+2️⃣ Make File Executable (Linux / Kali)
+chmod +x ethical-power-scanner.js
+
+3️⃣ Run the Scanner
+node ethical-power-scanner.js https://example.com
+
+
+Example:
+
+node ethical-power-scanner.js https://pentest-ground.com:5013
+
+4️⃣ View Report
+
+After completion, a report will be generated:
+
+security-report.json
+
+
+Open it:
+
+cat security-report.json
+
+
+Or pretty view:
+
+jq . security-report.json
+
+📄 Sample Report Output
+{
+  "target": "https://example.com",
+  "timestamp": "2025-01-01T10:00:00Z",
+  "findings": [
+    {
+      "name": "SQL Injection Indicator",
+      "severity": "High",
+      "evidence": "Database error message detected",
+      "recommendation": "Use parameterized queries"
+    }
+  ]
+}
+
+🧪 Severity Levels
+Severity	Meaning
+Critical	Immediate security risk
+High	Exploitable vulnerability indicators
+Medium	Security hardening required
+Low	Informational issue
+📚 OWASP Top 10 Mapping
+
+A01 – Broken Access Control (Indicators)
+
+A03 – Injection
+
+A05 – Security Misconfiguration
+
+A07 – Identification & Authentication Issues
+
+A08 – Software & Data Integrity Failures
+
+⚠️ Legal & Ethical Disclaimer
+
+This tool is for educational purposes only.
+Use it only on systems you own or have explicit permission to test.
+The author is not responsible for misuse.
+
+🎓 Academic & Resume Use
+
+✔ Final‑year project
+✔ Cybersecurity portfolio
+✔ SOC Analyst / Pentester resume
+✔ GitHub showcase
+
+🚀 Future Improvements
+
+HTML / PDF reports
+
+CVSS scoring
+
+Plugin‑based checks
+
+OWASP auto‑classification
+
+Dashboard UI
+
+Nuclei safe‑template integration
+
+👨‍💻 Author
+
+Shyam Shanmugam
+ECE Student | Cybersecurity Enthusiast
+Ethical Security Research & Detection
+
+
+
+---------------------------------------------------------------------------------------------------------------
 🔐 Ethical Web Security Tester (Single-File CLI)
 
 A single-file, CLI-based ethical web security testing tool designed for students and beginners to perform authorized, non-destructive security checks on web applications.
