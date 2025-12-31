@@ -66,6 +66,48 @@ Check Node version:
 
 node -v
 
+
+
+
+
+
+▶️ HOW TO RUN
+
+
+
+
+
+node ethical-web-security-scanner.js https://example.com
+
+
+Output:
+
+
+security-report.json
+
+
+📄 SAMPLE JSON OUTPUT
+
+
+{
+  "target": "https://example.com",
+  "summary": {
+    "Critical": 1,
+    "High": 2,
+    "Medium": 3
+  },
+  "findings": [
+    {
+      "name": "SQL Injection Indicator",
+      "severity": "High",
+      "evidence": "Database error message detected",
+      "recommendation": "Use prepared statements"
+    }
+  ]
+}
+
+
+
 📂 Project Structure
 Ethical-Power-Web-Scanner/
 │
