@@ -74,17 +74,30 @@ Ethical-Power-Web-Scanner/
 └── security-report.json   (generated after scan)
 
 ▶️ How to Run (Step‑by‑Step)
+
+
 1️⃣ Clone or Download
-git clone https://github.com/your-username/Ethical-Power-Web-Scanner.git
+
+
+
+git clone https://github.com/shyamshanmugam/Ethical-Web-Security-Tester.git
+
+
+
 cd Ethical-Power-Web-Scanner
 
 
 OR place ethical-power-scanner.js in a folder manually.
 
 2️⃣ Make File Executable (Linux / Kali)
+
+
 chmod +x ethical-power-scanner.js
 
 3️⃣ Run the Scanner
+
+
+
 node ethical-power-scanner.js https://example.com
 
 
